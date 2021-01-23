@@ -60,7 +60,6 @@ h2 span {
     background: #00205d;
 }
 
-
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/mountains.png);
     background-size: cover;
@@ -141,6 +140,17 @@ header {
     text-align: center;
 }
 
+.card-body a {
+    color:white;
+    transition: color 0.3s;
+}
+
+.card-body a:hover,
+.card-body a:active {
+    color: aqua;
+    text-decoration: none;
+}
+
 .card img {
     filter: brightness(1);
     transition: filter 0.3s;    
@@ -168,6 +178,19 @@ header {
 
 .bubble-label {
     padding: 0 10px 0 0;
+}
+
+#resume-link {
+    color: aqua;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+#resume-link:hover,
+#resume-link:active {
+    color: aqua;
+    border-bottom: 2px solid aqua;
 }
 
 /* ABOUT ME */
