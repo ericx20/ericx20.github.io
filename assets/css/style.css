@@ -192,15 +192,15 @@ header {
     padding: 0 10px 0 0;
 }
 
-#resume-link {
+.fancy-link {
     color: aqua;
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s;
 }
 
-#resume-link:hover,
-#resume-link:active {
+.fancy-link:hover,
+.fancy-link:active {
     color: aqua;
     border-bottom: 2px solid aqua;
 }
