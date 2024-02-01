@@ -231,3 +231,8 @@ header {
   color: aqua;
   text-decoration: none;
 }
+
+.se-webring-icon {
+  width: 40px;
+  margin-left: -4px;
+}
