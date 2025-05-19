@@ -294,10 +294,10 @@
             <span>Python</span>
           </li>
           <li>
-            <span>C/C++</span>
+            <span>Rust</span>
           </li>
           <li>
-            <span>Ruby</span>
+            <span>C/C++</span>
           </li>
         </ul>
         <ul class="bubble-list">
@@ -306,7 +306,7 @@
             <span>React</span>
           </li>
           <li>
-            <span>Redux</span>
+            <span>Next.js</span>
           </li>
           <li>
             <span>Vue</span>
@@ -351,12 +351,12 @@
           <div class="col-md-9">
             <h3>I'm Eric Xu. Nice to meet you!</h3>
             <p>
-              I'm a full stack web developer and 3B Software Engineering student
-              at the University of Waterloo. I've built the entire frontend for
-              a two-person startup (Hemora), and foundational UI components for
-              Capital One Canada. In my free time I develop training software
-              for the Rubik's Cube speed skills, endorsed by one of the world's
-              fastest players.
+              I'm a full stack web developer and 4th year Software Engineering
+              student at the University of Waterloo. I've built the entire
+              frontend for a two-person startup (Hemora), and foundational UI
+              components for Capital One Canada. In my free time I develop
+              training software for the Rubik's Cube speed skills, endorsed by
+              one of the world's fastest players.
             </p>
           </div>
         </div>
@@ -368,9 +368,7 @@
         <h2><span>Contact</span></h2>
         <div>
           <img src="assets/img/email.png" class="email-icon" />
-          <a href="mailto: e29xu@uwaterloo.ca" class="email-link"
-            >e29xu@uwaterloo.ca</a
-          >
+          <a id="contact-link" class="email-link" href="">Send me an email</a>
         </div>
         <div>
           Visit my
@@ -415,5 +413,10 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document
+        .getElementById("contact-link")
+        ?.setAttribute("href", "mailto:".concat(atob("bWVAZXJpY3h1Lm5ldA")));
+    </script>
   </body>
 </html>
